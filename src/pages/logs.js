@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 const Logs = () => {
     useEffect (() => {
-        document.title = 'SDLR - logs'
+        document.title = 'Video Synthesis Application - logs'
     })
     return (
         <div>

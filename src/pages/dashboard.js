@@ -3,7 +3,7 @@ import PidBar from '../components/PidBar'
 
 const Dashboard = () => {
     useEffect (() => {
-        document.title = 'SDLR - dashboard'
+        document.title = 'Video Synthesis Application - dashboard'
     })
     return (
         <div>

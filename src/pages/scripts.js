@@ -23,7 +23,7 @@ const Scripts = () => {
     const [script, setScript] = useState("")
 
     useEffect (() => {
-        document.title = 'SDLR - scripts'
+        document.title = 'Video Synthesis Application - scripts'
     })
     return (
         <ScriptContext.Provider value={[script, setScript]}>
