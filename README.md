@@ -22,7 +22,7 @@
 # git pull
 # npm run build
 # echo -e 'Options -MultiViews\nRewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteRule ^ index.html [QSA,L]' > build/.htaccess
-# cp -rf build/* /var/www/html
+# yes | cp -rfy build/* /var/www/html
 ```
 
 # Building app from the scratch:
@@ -51,6 +51,13 @@
 ## [React-router-bootstrap](https://github.com/react-bootstrap/react-router-bootstrap)
 ```shell
 # npm install react-router-bootstrap --save
+```
+
+## Known issues
+Package **semver** missing
+```shell
+# cd /path/to/projects && cd videosynthesisinterface
+# npm install semver --save
 ```
 
 

@@ -14,12 +14,12 @@ const PidBar = () => {
                 return response.json()
             })
             .then(response => {
-                setData(`SDLR is running with PID: ${response.data}`)
+                setData(`VSDaemon is running with PID: ${response.data}`)
                 return response
             })
             .catch(error => {
                 setVariant('danger')
-                setData('SDLR is offline. Type "cd /path/to/sdlr && node server" in console for SDLR run.')
+                setData('VSDaemon is offline. Type "cd /path/to/videoSynthesisDaemon && node server" in console for VSDaemon run.')
                 return error
             })
         }, 500)
