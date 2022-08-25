@@ -1,3 +1,37 @@
+
+# Building app from the scratch:
+
+## [Create-react-app](https://create-react-app.dev)
+```shell
+# npx create-react-app videosynthesisinterface
+# cd videosynthesisinterface
+```
+
+## [Styled-components](https://styled-components.com)
+```shell
+# npm install styled-components --save
+```
+
+## [React-bootstrap](https://react-bootstrap.github.io)
+```shell
+# npm install react-bootstrap bootstrap --save
+```
+
+## [React Router](https://reactrouter.com)
+```shell
+# npm install react-router-dom --save
+```
+
+## [React-router-bootstrap](https://github.com/react-bootstrap/react-router-bootstrap)
+```shell
+# npm install react-router-bootstrap --save
+```
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
