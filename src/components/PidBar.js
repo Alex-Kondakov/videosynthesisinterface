@@ -19,7 +19,7 @@ const PidBar = () => {
             })
             .catch(error => {
                 setVariant('danger')
-                setData('VSDaemon is offline. Type "cd /path/to/videoSynthesisDaemon && node server" in console for VSDaemon run.')
+                setData(`VSDaemon is offline. Listerning on http://${CFG_HOST}:${CFG_PORT}`)
                 return error
             })
         }, 500)

@@ -22,7 +22,7 @@
 # git pull
 # npm run build
 # echo -e 'Options -MultiViews\nRewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteRule ^ index.html [QSA,L]' > build/.htaccess
-# yes | cp -rfy build/* /var/www/html
+# yes | cp -rf build/* /var/www/html
 ```
 
 # Building app from the scratch:
