@@ -1,4 +1,30 @@
 
+# Obtaining files, install dependencies
+
+## Install development build
+```shell
+# cd /path/to/projects
+# git clone https://github.com/Alex-Kondakov/videosynthesisinterface.git
+# cd videosynthesisinterface
+# npm install
+```
+
+## Building app for production (for apache web server)
+```shell
+# npm run build
+# echo -e 'Options -MultiViews\nRewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteRule ^ index.html [QSA,L]' > build/.htaccess
+# cp -rf build/* /var/www/html
+```
+
+## Updating app from repository
+```shell
+# cd /path/to/projects && cd videosynthesisinterface
+# git pull
+# npm run build
+# echo -e 'Options -MultiViews\nRewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteRule ^ index.html [QSA,L]' > build/.htaccess
+# cp -rf build/* /var/www/html
+```
+
 # Building app from the scratch:
 
 ## [Create-react-app](https://create-react-app.dev)
