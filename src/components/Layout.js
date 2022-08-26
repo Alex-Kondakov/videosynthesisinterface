@@ -13,10 +13,7 @@ const Main = styled.main `
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    overflow-y: auto;
+    padding: 30px;
 `
 
 

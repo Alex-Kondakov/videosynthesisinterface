@@ -1,6 +1,7 @@
 import React from "react"
 export const RemoteContext = React.createContext([
-    'aaa',
-    'bbb',
-    'ccc'
+    1,
+    2,
+    1600,
+    900
 ])
