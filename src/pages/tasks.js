@@ -1,3 +1,21 @@
+import React, { useEffect } from 'react'
+
+const Tasks = () => {
+    useEffect (() => {
+        document.title = 'Video Synthesis Application - Tasks'
+    })
+    return (
+        <div>
+            <h1>TASKS</h1>
+            <p>This is tasks</p>
+        </div>
+    )
+}
+
+export default Tasks
+
+
+/*
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { ScriptContext } from "../components/ScriptContext";
@@ -38,3 +56,4 @@ const Scripts = () => {
 }
 
 export default Scripts
+*/

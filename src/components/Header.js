@@ -13,15 +13,14 @@ const Header = () => {
                 </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="header">
-                        <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-                        <LinkContainer to="/scripts"><Nav.Link>Scripts</Nav.Link></LinkContainer>
+                        <LinkContainer to="/"><Nav.Link>Dashboard</Nav.Link></LinkContainer>
+                        <LinkContainer to="/tasks"><Nav.Link>Tasks</Nav.Link></LinkContainer>
                         <LinkContainer to="/logs"><Nav.Link>Logs</Nav.Link></LinkContainer>
-                        <NavDropdown title="Applications" id="basic-nav-dropdown" disabled>
-                            <LinkContainer to="/app1"><NavDropdown.Item>Application one</NavDropdown.Item></LinkContainer>
-                            <LinkContainer to="/app2"><NavDropdown.Item>Application two</NavDropdown.Item></LinkContainer>
-                            <LinkContainer to="/app3"><NavDropdown.Item>Application three</NavDropdown.Item></LinkContainer>
+                        <NavDropdown title="New" id="basic-nav-dropdown">
+                            <LinkContainer to="/remote"><NavDropdown.Item>From remote sources</NavDropdown.Item></LinkContainer>
+                            <LinkContainer to="/local"><NavDropdown.Item>From local sources</NavDropdown.Item></LinkContainer>
                             <NavDropdown.Divider />
-                            <LinkContainer to="/app4"><NavDropdown.Item>Application four</NavDropdown.Item></LinkContainer>
+                            <LinkContainer to="/import"><NavDropdown.Item>Import from DB</NavDropdown.Item></LinkContainer>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

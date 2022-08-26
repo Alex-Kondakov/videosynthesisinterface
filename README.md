@@ -9,6 +9,11 @@
 # npm install
 ```
 
+## Update config with actual values
+```shell
+# nano src/config.js
+```
+
 ## Building app for production (for apache web server)
 ```shell
 # npm run build

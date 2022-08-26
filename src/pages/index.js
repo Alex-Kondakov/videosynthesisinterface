@@ -3,8 +3,9 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Layout from '../components/Layout'
 
 import Dashboard from './dashboard'
-import Scripts from './scripts'
+import Tasks from './tasks'
 import Logs from './logs'
+import Remote from './remote'
 
 const Pages = () => {
     return (
@@ -12,8 +13,9 @@ const Pages = () => {
             <Layout>
                 <Routes>
                     <Route exact path="/" element={<Dashboard />} />
-                    <Route exact path="/scripts" element={<Scripts />} />
+                    <Route exact path="/tasks" element={<Tasks />} />
                     <Route exact path="/logs" element={<Logs />} />
+                    <Route exact path="/remote" element={<Remote />} />
                 </Routes>
             </Layout>
         </Router>

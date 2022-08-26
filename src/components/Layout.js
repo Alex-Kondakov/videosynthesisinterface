@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Header from './Header'
 
+
 const Wrapper = styled.div `
     position: absolute;
     height: 100%;
@@ -17,6 +18,9 @@ const Main = styled.main `
     padding-right: 30px;
     overflow-y: auto;
 `
+
+
+
 const Layout = ({ children }) => {
     return (
         <React.Fragment>

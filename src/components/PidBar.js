@@ -19,7 +19,7 @@ const PidBar = () => {
             })
             .catch(error => {
                 setVariant('danger')
-                setData(`VSDaemon is offline. Listerning on http://${CFG_HOST}:${CFG_PORT}`)
+                setData(`VSDaemon is offline. Listening on http://${CFG_HOST}:${CFG_PORT}`)
                 return error
             })
         }, 500)
